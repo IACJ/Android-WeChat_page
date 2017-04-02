@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:anfroid="http://schemas.android.com/apk/res/android"
+    anfroid:orientation="vertical"
+    anfroid:layout_width="match_parent"
+    anfroid:layout_height="match_parent">
+
+    <Button
+        anfroid:layout_width="match_parent"
+        anfroid:layout_height="wrap_content"
+        anfroid:id="@+id/button_3"
+        anfroid:text="Button 3"/>
+
+</LinearLayout>

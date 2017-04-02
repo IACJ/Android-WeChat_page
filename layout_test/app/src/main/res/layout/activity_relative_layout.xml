@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是相对布局"
+        android:id="@+id/btn1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转到线性布局"
+        android:id="@+id/btn2"
+        android:textColor="#FF0000"
+       android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是相对布局"
+        android:id="@+id/btn3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是相对布局"
+        android:id="@+id/btn4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是相对布局"
+        android:id="@+id/btn5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是相对布局"
+        android:id="@+id/btn6"
+        android:layout_above="@id/btn2"
+        android:layout_toLeftOf="@id/btn2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是相对布局"
+        android:id="@+id/btn7"
+        android:layout_above="@id/btn2"
+        android:layout_toRightOf="@id/btn2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是相对布局"
+        android:id="@+id/btn8"
+        android:layout_below="@id/btn2"
+        android:layout_toLeftOf="@id/btn2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是相对布局"
+        android:id="@+id/btn9"
+        android:layout_below="@id/btn2"
+        android:layout_toRightOf="@id/btn2"/>
+
+</RelativeLayout>
